@@ -1,0 +1,31 @@
+{
+  "name": "hardhat-combined-plugins",
+  "version": "1.0.0",
+  "description": "A Hardhat plugin made up of multiple smart feature plugins such skeleton contract generation and contract audits.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hardhat",
+    "plugin",
+    "solhint",
+    "audit",
+    "coverage",
+    "solidity"
+  ],
+  "author": "Eldrin Dimabuyu",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "hardhat": "^2.22.5",
+    "solhint": "^5.0.1"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.0.2",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
