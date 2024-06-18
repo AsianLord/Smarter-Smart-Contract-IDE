@@ -15,4 +15,4 @@ contract MyERC777Token is ERC777 {
     }
 }
 `
-module.exports = { erc777Skelton };
+module.exports = { erc777Skeleton };
