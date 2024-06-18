@@ -1,16 +1,16 @@
 const { task } = require("hardhat/config");
 const { writeFileSync } = require("fs");
-const { erc20Skeleton } = require("./erc20");
-const { erc721Skeleton } = require("./erc721");
-const { daoSkeleton } = require("./dao");
-const { erc223Skeleton } = require("./erc223");
-const { erc621Skeleton } = require("./erc621");
-const { erc721xSkeleton } = require("./erc721x");
-const { erc777Skeleton } = require("./erc777");
-const { erc827Skeleton } = require("./erc827");
-const { erc1155Skeleton } = require("./erc1155");
-const { erc1400Skeleton } = require("./erc1400");
-const { erc1967Skeleton } = require("./erc1967");
+const { erc20Skeleton } = require("./standard-contracts/erc20");
+const { erc721Skeleton } = require("./standard-contracts/erc721");
+const { daoSkeleton } = require("./standard-contracts/dao");
+const { erc223Skeleton } = require("./standard-contracts/erc223");
+const { erc621Skeleton } = require("./standard-contracts/erc621");
+const { erc721xSkeleton } = require("./standard-contracts/erc721x");
+const { erc777Skeleton } = require("./standard-contracts/erc777");
+const { erc827Skeleton } = require("./standard-contracts/erc827");
+const { erc1155Skeleton } = require("./standard-contracts/erc1155");
+const { erc1400Skeleton } = require("./standard-contracts/erc1400");
+const { erc1967Skeleton } = require("./standard-contracts/erc1967");
 const { runSolhint } = require("./solhintAudit");
 const { generateSmartContract } = require('./generateCode');
 

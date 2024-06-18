@@ -1,9 +1,9 @@
 /** @type import('hardhat/config').HardhatUserConfig */
 require("@nomiclabs/hardhat-waffle")
 require("./src/main")
-require("./src/erc20")
+require("./src/standard-contracts/erc20")
 require("./src/solhintAudit")
-require("./src/dao")
+require("./src/standard-contracts/dao")
 require("./src/generateCode")
 
 module.exports = {
