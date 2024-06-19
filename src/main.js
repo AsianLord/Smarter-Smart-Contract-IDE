@@ -97,12 +97,15 @@ task("audit", "Performs a security audit on smart contracts")
     }
   });
 
+// Scrapped plugin due to unsuccessful prompts
 task('generate-contract', 'Generates a smart contract skeleton using generative AI')
   .addParam('type', 'The type of smart contract to generate')
   .setAction(async ({ type }) => {
     await generateSmartContract(type);
   });
 
+
+// Beta-plugin
 task("coverage", "Runs solidity-coverage")
   .setAction(async (_, hre) => {
     try {
