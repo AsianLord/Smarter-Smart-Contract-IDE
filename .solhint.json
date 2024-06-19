@@ -1,5 +1,6 @@
 {
     "extends": "solhint:recommended",
+    "plugins": [],
     "rules": {
         "avoid-suicide": "error",
         "avoid-sha3": "warn",
@@ -10,26 +11,9 @@
         "no-empty-blocks": "error",
         "not-rely-on-time": "warn",
         "reason-string": ["warn", { "maxLength": 32 }],
-        "var-name-mixedcase": "error",
-        "private-vars-leading-underscore": "error",
-        "ordering": [
-        "error",
-        {
-            "order": [
-            "state-variable-public",
-            "state-variable-internal",
-            "state-variable-private",
-            "constructor",
-            "fallback",
-            "receive",
-            "function"
-            ]
-        }
-        ],
         "quotes": ["error", "double"],
         "visibility-modifier-order": "error",
         "payable-fallback": "error",
-        "no-unused-vars": "error",
         "imports-on-top": "error",
         "check-send-result": "error",
         "no-inline-assembly": "error",
@@ -40,4 +24,3 @@
         "avoid-low-level-calls": "error"
     }
 }
-  
