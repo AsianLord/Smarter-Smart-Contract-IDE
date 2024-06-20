@@ -47,6 +47,13 @@
     ```sh
     yarn link "smarter-smart-contract-ide"
     ```
+    
+11. Finally in the root of your project directory there should be a "hardhat.config.js" file. At the very start of the file add the line:
+```sh
+require("smarter-smart-contract-ide")
+```
+
+
 
 Now you're ready to use the Smarter Smart Contract IDE!
 
